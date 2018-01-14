@@ -9,11 +9,7 @@
     <link rel="stylesheet" href="css/header.css">
 </head>
 <body>
-<header>
-    <span>您好，欢迎光临小南门网,请登录</span>
-    <a href="#">关于我们</a>
-    <a href="index.html">首页</a>
-</header>
+@@include('include/header.html')
 <section class="container">
     <div class="image clearfix">
         <img src="img/index-1.jpg" alt="占位图片">
@@ -36,12 +32,6 @@
     </div>
 </section>
 <!--页面底部开始-->
-<footer class="footer">
-    <span class="copyright">Copyright© CUMT小南门网 ，All Rights Reserved</span>
-    <span class="address">地址：江苏省徐州市泉山区大学路1号中国矿业大学</span>
-    <span class="developer">团队：CUMT-CS学生团队</span>
-    <div class="contactus">
-        <img src="img/weichat.png" alt="微信">
-    </div>
+@@include('include/footer.html')
 </body>
 </html>
