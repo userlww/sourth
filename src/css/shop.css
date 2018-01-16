@@ -1,0 +1,109 @@
+/*   头部样式开始  */
+/*头部浅灰色欢迎文字栏*/
+a:hover {color:#FF00FF;}
+header
+{
+    width: 100%;
+}
+.headTop
+{
+    height:30px;
+    border-bottom:1px solid #e5e5e5;
+    background-color: #e8e6e6;
+    width: 100%;
+
+}
+.headTop .welcome
+{
+    position:relative;
+    left:5%;
+    display: inline-block;
+    color: #8E8E8E;
+    font-size: 1rem;
+    top:4px;
+}
+.headTop ul{
+    display: inline;
+    list-style: none;
+    position:relative;
+    left:70%;
+    top:5px;
+}
+.headTop ul li{
+    display:inline;
+}
+.headTop a{
+    text-decoration: none;
+    color: #8E8E8E;
+}
+.headTop ul li span
+{
+    color:#8E8E8E ;
+}
+.headTop ul li a:hover{
+    color: red;
+}
+
+
+
+/* 头部下面logo以及搜索框一栏 */
+
+.headBottom
+{
+    display:flex;
+    align-items: center;
+    height: 190px;
+    background-color:#fcfcfc;
+    border-bottom:  1px ;
+    border-bottom:1px solid #e5e5e5;
+}
+.headBottom img
+{
+    position: absolute;
+    left: 100px;
+}
+.headBottom input
+{
+    position: absolute;
+    left: 382px;
+    width:622px;
+    height: 43px;
+    border: solid 2px red;
+}
+.headBottom button
+{
+    position: absolute;
+    left: 1008px;
+    height: 49px;
+    border: 2px solid red;
+    background-color:red;
+}
+.headBottom ul
+{
+    display: inline;
+    position: absolute;
+    left: 380px;
+    top:153px;
+
+}
+.headBottom ul li
+{
+    list-style: none;
+    float: left;
+    text-decoration: none;
+    font-size: 1.2rem;
+    width: 54px;
+}
+.headBottom ul li:nth-child(6)
+{
+    width: 89px;
+}
+.headBottom ul li:nth-child(8)
+{
+    width:69px;
+}
+.headBottom ul li:nth-child(9)
+{
+    width: 80px;
+}
+/*头部样式结束*/  
