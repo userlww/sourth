@@ -51,31 +51,31 @@ header
 
 .headBottom
 {
-    display:flex;
+    display: block;
     align-items: center;
     height: 190px;
     background-color:#fcfcfc;
-    border-bottom:  1px ;
     border-bottom:1px solid #e5e5e5;
 }
 .headBottom img
 {
-    position: absolute;
-    left: 100px;
+    position: relative;
+    left: 10%;
+    top: 36px;
 }
 .headBottom input
 {
-    position: absolute;
-    left: 382px;
+    position: relative;
+    left: 15%;
     width:622px;
-    height: 43px;
+    height: 42px;
     border: solid 2px red;
 }
 .headBottom button
 {
-    position: absolute;
-    left: 1008px;
-    height: 49px;
+    position: relative;
+    left: 14%;
+    height: 48px;
     border: 2px solid red;
     background-color:red;
 }
@@ -83,7 +83,7 @@ header
 {
     display: inline;
     position: absolute;
-    left: 380px;
+    left: 27%;
     top:153px;
     
 }
@@ -151,7 +151,6 @@ header
 .display .hotSell
 {
     float: left;
-    margin-top: 25px;
     margin-left: 10%;
     background-color: #ff3943;
     width:15%;
@@ -160,11 +159,6 @@ header
     text-align: center;
     font-size:2.2rem;
 }
-.display .photosArea-1
-{
-    display: inline-block;
-    margin-top: 25px;
-}
 .display .hotSell span
 {
     display: inline-block;
@@ -172,13 +166,16 @@ header
 }
 .photo
 {
-    float: right;
-    width: 27%;
-    margin-left:68px;
-
+    margin-top: 24px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    height: auto;
 }
-.photo img
+.photo div img
 {
+    height: 250px;
+    width: 96%;
+    column-gap: 2px;
     border: solid 1px #f8f9ff;
     -webkit-border-radius:2px;
     -moz-border-radius:2px;
@@ -186,12 +183,16 @@ header
 }
 .discription
 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: inline-block;
+    padding-top:3px;
     width:150px;
-    height: 30px;
+    height: 25px;
     background-color:#ff3943;
     border: solid #f8f9ff 1px;
-    -webkit-border-radius:22;
-    -moz-border-radius:22;
+    -webkit-border-radius:22px;
+    -moz-border-radius:22px;
     border-radius:22px;
     color: white;
     text-align: center;
